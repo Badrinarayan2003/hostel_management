@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.main-container-background-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: brightness(0.7);
+}
+
+.auth-links {
+  cursor: pointer;
+}
+
+.payment-process-image-box {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width:767px) {
+  .main-container {
+    height: auto;
+    padding-bottom: 3rem;
+  }
+}

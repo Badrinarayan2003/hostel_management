@@ -1,0 +1,109 @@
+.login-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-header {
+    padding: 20px;
+}
+
+.login-signup-form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-text {
+    font-size: 3rem;
+}
+
+.signup-form {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 15px;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 630px;
+    box-shadow: 0px 0px 16px #fff;
+}
+
+.reg-login-text {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.link-active {
+    text-decoration: underline;
+}
+
+.login-signup-btn {
+    padding: 6px 50px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(180deg, #A70BCF 0%, #240565 104.46%);
+    font-weight: 500;
+}
+
+.register-input-box {
+    margin-bottom: 1rem;
+}
+
+.register-input-box label {
+    margin-bottom: 1px;
+    font-weight: 500;
+}
+
+.register-input-box input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    outline: none;
+    border: none;
+    padding: 9px 14px;
+}
+
+.profile-icon-box {
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    position: absolute;
+    top: -5%;
+    left: 42%;
+}
+
+.profile-icon-box img {
+    border-radius: 50%;
+}
+
+.profile-edit-icon {
+    position: absolute;
+    top: 6%;
+    left: 51%;
+}
+
+/* .clas-email-input{
+
+} */
+.clas-email-input-icon {
+    position: absolute;
+    top: 47%;
+    right: 5%;
+}
+
+@media (max-width:425px) {
+
+    .login-signup-form {
+        padding: 0px;
+    }
+
+    .header-text {
+        font-size: 2.5rem;
+    }
+}

@@ -1,0 +1,110 @@
+.login-content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-header {
+    padding: 20px;
+}
+
+.login-signup-form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#email {
+    padding: 11px 35px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+.header-text {
+    font-size: 3rem;
+}
+
+#password {
+    padding: 11px 35px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+#email::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+#password::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.login-signup-form {
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 0px 16px #fff;
+}
+
+.reg-login-text {
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.link-active {
+    text-decoration: underline;
+}
+
+.input-icon {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+}
+
+.forgot-text {
+    color: rgba(0, 193, 187, 1);
+}
+
+.show-pass-label {
+    color: #fff;
+    margin-left: 4px;
+}
+
+.check-pass-show {
+    background: #fff;
+    width: 15px;
+    height: 15px;
+}
+
+.login-signup-btn {
+    padding: 6px 50px;
+    border: none;
+    border-radius: 21px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(180deg, #A70BCF 0%, #240565 104.46%);
+    font-weight: 500;
+}
+
+@media (max-width:425px) {
+
+    .login-signup-form {
+        padding: 0px;
+    }
+
+    .header-text {
+        font-size: 2.5rem;
+    }
+}
