@@ -16,6 +16,10 @@ const Login = () => {
         setPasswordToggle(!passwordToggle);
     }
 
+    const handleLogin=(evt)=>{
+        evt.preventDefault();
+         navigate("/profile")
+    }
 
     return (
         <div className="main-container" style={{ height: "100vh" }}>
@@ -71,9 +75,8 @@ const Login = () => {
                         </div>
 
                         <div className='w-100 d-flex justify-content-center'>
-                            <button type="submit" className="login-signup-btn" onClick={() => navigate("/profile")}>Login</button>
+                            <button type="submit" className="login-signup-btn" onClick={handleLogin}>Login</button>
                         </div>
-
 
                     </form>
                 </div>
